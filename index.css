@@ -1,0 +1,6 @@
+.hidden {
+  display: none;
+}
+#greeting {
+  font-size: 100px;
+}

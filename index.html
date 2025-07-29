@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOmentum</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form class="login-form" class="hidden">
+      <input
+        type="text"
+        placeholder="이름이 뭡니까????"
+        required
+        maxlength="15"
+        type="submit"
+      />
+      <button>Log in</button>
+    </form>
+
+    <h1 id="greeting" class="hidden"></h1>
+    <h2 class="clock">00:00</h2>
+    <form id="todo-form">
+      <input type="text" placeholder="Please write your todo " reqeired />
+    </form>
+    <ul id="todo-list">
+    <div id="quotes">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="JS/todo.js"></script>
+    <script src="JS/background.js"></script>
+    <script src="JS/clock.js"></script>
+    <script src="JS/greeting.js"></script>
+    <script src="JS/quotes.js"></script>
+  </body>
+</html>
